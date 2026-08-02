@@ -1,8 +1,8 @@
 # Laravel RFC3161
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nexxai/laravel-rfc3161.svg?style=flat-square)](https://packagist.org/packages/nexxai/laravel-rfc3161)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/nexxai/laravel-rfc3161/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/nexxai/laravel-rfc3161/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/nexxai/laravel-rfc3161/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/nexxai/laravel-rfc3161/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/nexxai/laravel-rfc3161/ci.yml?branch=main&label=tests&style=flat-square)](https://github.com/nexxai/laravel-rfc3161/actions/workflows/ci.yml)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/nexxai/laravel-rfc3161/ci.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/nexxai/laravel-rfc3161/actions/workflows/ci.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/nexxai/laravel-rfc3161.svg?style=flat-square)](https://packagist.org/packages/nexxai/laravel-rfc3161)
 
 `nexxai/laravel-rfc3161` is a thin Laravel interface for RFC 3161 timestamp providers. It creates timestamp requests, sends them to your selected provider, stores the request/response binary payloads, and verifies responses with provider-specific certificates.
